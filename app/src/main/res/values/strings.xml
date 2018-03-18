@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OpenStop</string>
+    <string name="hint_User">请输入用户名</string>
+    <string name="hint_Pass">请输入密码</string>
+    <string name="hint_Passag">请再次输入密码</string>
+    <string name="use">sdh</string>
+    <string name="pass">sjhsjh</string>
+</resources>

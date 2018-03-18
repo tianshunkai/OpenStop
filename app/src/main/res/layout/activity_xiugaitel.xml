@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#333333"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/xiugai_tel_back"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/back1"
+
+            />
+        <View
+            android:layout_width="1px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更改联系方式"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#fff"
+            android:layout_gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/xiugai_tel_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/save_toux"
+            android:textColor="#fff"
+            android:textSize="10dp"
+            android:enabled="false"
+            android:layout_marginLeft="80dp"
+            android:text="保存"
+            />
+
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/xiugai_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="输入你新的联系方式"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

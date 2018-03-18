@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/icon1"
+        />
+    <EditText
+        android:id="@+id/zhanghao"
+        android:layout_width="240dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:hint="@string/hint_User"
+        android:layout_height="50dp"
+        />
+
+
+    <EditText
+        android:id="@+id/mima"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="@string/hint_Pass"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/access1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:enabled="false"
+        android:onClick="loginClicked"
+        android:textSize="50px"
+
+        android:text="登录" />
+    <Button
+        android:id="@+id/zuche"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:layout_gravity="center"
+
+        android:text="马上注册"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        >
+
+        <CheckBox
+            android:id="@+id/check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:text="" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="我已阅读并同意遵守服务许可协议"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

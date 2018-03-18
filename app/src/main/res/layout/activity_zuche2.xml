@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="60dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/smlie_1"
+
+        />
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/zc_nicheng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="昵称"
+        />
+    <EditText
+        android:id="@+id/zc_dianhua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="联系电话"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <Button
+        android:id="@+id/wanc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="完成"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:text="完善信息让别人记住你,也可以直接完成跳过
+           更多信息可以去个人信息里完善"
+        />
+</LinearLayout>
